@@ -1,0 +1,27 @@
+button{
+	width:350px;
+	padding:30px;
+	font-family:"verdana";
+	background-color:pink;
+	
+	
+}
+#factform{
+	text-align: center;
+}
+
+div{
+	border: solid blue 1px;
+	display: flex;
+	justify-content: center;
+	text-align:center;
+	width: 1000px;
+	padding: 200px;
+	margin:auto;
+}
+
+img{
+	width:200px;
+	display:flex;
+	margin-top:70px;
+}
