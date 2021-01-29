@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Molle:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Molle:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+
+body{
+	background-color:#C9DCB3;
+	display:flex;
+	justify-content:center;
+	font-family: 'Dancing Script', cursive;
+}
+main{
+	text-align:center;
+}
+
+
+@keyframes title{
+	from{color:black;}
+	4%{color:LightSlateGray;}
+	7%{color:LightGray;}
+	11%{color:Cornsilk;}
+	15%{color:BurlyWood;}
+	19%{color:Sienna;}
+	22%{color:Maroon;}
+	26%{color:Firebrick;}
+	30%{color:Crimson;}
+	33%{color:LightCoral;}
+	37%{color:PaleVioletRed;}
+	41%{color:MediumVioletRed;}
+	44%{color:DarkViolet;}
+	48%{color:SlateBlue;}
+	52%{color:DodgerBlue;}
+	56%{color:LightSkyBlue;}
+	59%{color:darkTurquoise;}
+	63%{color:LightSeaGreen;}
+	67%{color:MediumAquamarine;}
+	70%{color:MediumSpringGreen;}
+	74%{color:Lime;}
+	78%{color:GreenYellow;}
+	81%{color:Khaki;}
+	85%{color:Moccasin;}
+	89%{color:Gold;}
+	93%{color:Orange;}
+	96%{color:OrangeRed;}
+	100%{color:Coral;}
+	
+}
+h1{
+	color: #170A1C;
+	font-family: 'Notable', sans-serif;
+	animation-name: title;
+	animation-duration: 100s;
+}
+
+#board{
+	display:grid;
+	width:600px;
+	height:600px;
+	grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+	grid-gap:10px;
+	border: 20px solid #9B5094;
+	box-shadow: 10px 10px 15px rgba(0,0,0,0.6);
+}
+
+#board > input{
+	background-color:#8FB8DE;
+	border-radius: 15px;
+	border:none;
+	font-size:120px;
+	box-shadow: 5px 5px 10px #1C3E5E;
+}
+
+#board > input:hover{
+	background-color:#F06449;
+}
+
+input{
+	font-family: 'Mansalva', cursive;
+}
+
+button{
+	margin:  30px;
+	padding: 20px;
+	font-size: 30px;
+	background-color:#6A605C;
+	color: white;
+	font-family: 'Molle', cursive;
+	border-radius: 10px;
+}
+
+button:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#container{
+	width:100%;
+	height:100%;
+	position:absolute;
+	background-color: rgba(0,0,0,0.7 );
+	display:none;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+}
+
+#popup{
+	width:600px;
+	height:450px;
+	background-color:white;
+	border-radius:20px;
+	position:relative;
+}
+
+#cat{
+	width:80%;
+}
+
+#x{
+	width:40px;
+	position:absolute;
+	right:10px;
+	top: 10px;
+}
+
+#popup > h2{
+	line-height:275px;
+	font-size:100px;
+	color: #17255A;
+}
+
+
+
+
+
+
+
+
